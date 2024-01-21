@@ -8,3 +8,103 @@
   --wenge-brown: hsl(30, 10%, 34%);
   --dark-charcoal: hsl(24, 5%, 18%);
 }
+
+/* Base Styles */
+
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5;
+  background-color: var(--eggshell);
+  color: var(--wenge-brown);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.line {
+  height: 1px;
+  background-color: var(--light-grey);
+  margin: 2rem 0;
+}
+
+h1,
+h2 {
+  line-height: 1;
+  font-family: "Young Serif";
+}
+/* Recipe */
+
+.recipe {
+  background-color: var(--white);
+}
+
+.recipe_information {
+  padding: 2.5rem 2rem;
+}
+
+.recipe_title {
+  font-size: 2.25rem;
+  color: var(--dark-charcoal);
+  margin-bottom: 1.5rem;
+}
+
+.recipe_description {
+  margin-bottom: 2rem;
+}
+
+.recipe_preparation {
+  background-color: var(--rose-white);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.recipe_preparation-title {
+  color: var(--dark-raspberry);
+  font-size: 1.25rem;
+}
+
+.recipe_preparation-info {
+  margin-left: 1.6rem;
+  margin-top: 1rem;
+}
+
+.recipe_preparation-info li {
+  padding-left: 1rem;
+}
+
+.recipe_preparation-info li::marker {
+  color: var(--dark-raspberry);
+}
+
+.recipe_preparation-info li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.recipe_instructions-title {
+  color: var(--nutmeg);
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.recipe_instructions-info li {
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+}
+
+.recipe_instructions-info li::marker {
+  color: var(--nutmeg);
+  font-weight: 600;
+}
+
+.recipe_instructions-info li:not(:last-child) {
+  margin-bottom: 8px;
+}
