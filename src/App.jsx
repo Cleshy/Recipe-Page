@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="recipe_information">
         <div className="recipe_heading">
-          <h1 className="recipe_title">Simple Omelette Recipe</h1>
+          <h1 className="recipe_heading-primary">Simple Omelette Recipe</h1>
           <p className="recipe_description">
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
@@ -33,7 +33,7 @@ function App() {
         </div>
         <div className="line"></div>
         <div className="recipe_instructions">
-          <h2 className="recipe_instructions-title">Instructions</h2>
+          <h2 className="recipe_heading-secondary">Instructions</h2>
           <ol className="recipe_instructions-info">
             <li>
               <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a
@@ -60,11 +60,40 @@ function App() {
               it cook for another minute, then slide it onto a plate.
             </li>
             <li>
-              Enjoy: Serve hot, with additional salt and pepper if needed.
+              <strong>Enjoy:</strong> Serve hot, with additional salt and pepper
+              if needed.
             </li>
           </ol>
         </div>
         <div className="line"></div>
+        <div className="recipe_nutrition">
+          <h2 className="recipe_heading-secondary">Nutrition</h2>
+          <p>
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+          <table className="recipe_nutrition-table">
+            <thead></thead>
+            <tbody>
+              <tr>
+                <td>Calories</td>
+                <td>277kcal</td>
+              </tr>
+              <tr>
+                <td>Carbs</td>
+                <td>0g</td>
+              </tr>
+              <tr>
+                <td>Protein</td>
+                <td>20g</td>
+              </tr>
+              <tr>
+                <td>Fat</td>
+                <td>22g</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </article>
   );
