@@ -1,5 +1,6 @@
 import React from "react";
-import img from "./assets/images/image-omelette.jpeg";
+// import img from "./assets/images/image-omelette.jpeg";
+import img from "./assets/images/image-omelette.webp";
 import "./App.css";
 
 function App() {
