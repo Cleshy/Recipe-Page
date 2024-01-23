@@ -20,8 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Check out the code! ✌](https://github.com/Cleshy/Recipe-Page)
+- Live Site URL: [Click for Live! 😉](https://cleshyrecipepage.netlify.app/)
 
 ## My process
 
