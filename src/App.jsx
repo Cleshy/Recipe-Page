@@ -31,6 +31,18 @@ function App() {
             </li>
           </ul>
         </div>
+        <div className="recipe_ingredients">
+          <h2 className="recipe_heading-secondary">Ingredients</h2>
+          <ul className="recipe_ingredients-list">
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>
+              Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </li>
+          </ul>
+        </div>
         <div className="line"></div>
         <div className="recipe_instructions">
           <h2 className="recipe_heading-secondary">Instructions</h2>

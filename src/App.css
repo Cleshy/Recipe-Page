@@ -110,6 +110,10 @@ h2 {
   margin-bottom: 8px;
 }
 
+.recipe_ingredients {
+  display: none;
+}
+
 /* Table */
 
 .recipe_nutrition-table {
@@ -130,4 +134,47 @@ table tr td:nth-of-type(2) {
   color: var(--nutmeg);
   font-weight: 600;
   width: 50%;
+}
+
+@media screen and (min-width: 700px) {
+  .recipe {
+    margin: 7.75rem auto;
+    max-width: 46rem;
+    padding: 2.5rem;
+    border-radius: 24px;
+  }
+
+  .recipe_img {
+    border-radius: 12px;
+  }
+
+  .recipe_img img {
+    border-radius: 12px;
+  }
+
+  .recipe_information {
+    padding: 2.5rem 0rem;
+  }
+
+  .recipe_heading-primary {
+    font-size: 2.5rem;
+  }
+
+  .recipe_ingredients {
+    display: block;
+    margin-top: 2rem;
+  }
+
+  .recipe_ingredients-list li {
+    margin-left: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  .recipe_ingredients-list li::marker {
+    color: var(--nutmeg);
+  }
+
+  .recipe_ingredients-list li:not(:last-child) {
+    margin-bottom: 8px;
+  }
 }
